@@ -1,0 +1,40 @@
+/* Basic Layout and Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+#game-container {
+    padding: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#game-play {
+    display: none;
+}

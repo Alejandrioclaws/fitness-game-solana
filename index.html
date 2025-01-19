@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness RPG Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness RPG Game</h1>
+    </header>
+
+    <div id="game-container">
+        <!-- Character Creation -->
+        <div id="character-creation">
+            <label for="char-name">Enter your character's name:</label>
+            <input type="text" id="char-name" placeholder="Character Name">
+            <label for="char-class">Choose your class:</label>
+            <select id="char-class">
+                <option value="warrior">Warrior</option>
+                <option value="mage">Mage</option>
+                <option value="archer">Archer</option>
+            </select>
+            <button id="create-char-btn">Create Character</button>
+        </div>
+
+        <!-- Game Stats and Controls -->
+        <div id="game-play" style="display:none;">
+            <h2>Character Stats</h2>
+            <div id="stats">
+                <p id="health">Health: 100</p>
+                <p id="level">Level: 1</p>
+                <p id="fitcoin">FitCoin: 0</p>
+            </div>
+            
+            <!-- Fitness Challenge -->
+            <h3>Fitness Challenge</h3>
+            <button id="challenge-btn">Complete a Fitness Challenge</button>
+
+            <button id="fight-btn">Fight the Boss!</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
